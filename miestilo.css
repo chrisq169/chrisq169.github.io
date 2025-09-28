@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif; 
+}
+header {
+    background-color: rgb(255, 255, 255); 
+    padding: 1%;
+    text-align: center;
+    border: top 10px solid rgb(9, 9, 10);
+    border-bottom: 10px solid #ffffff;
+    color: rgb(0, 0, 0);
+}
+.imagen-inline{
+    width:150px; /*ancho de imagen*/
+    height: auto; /*alto de la imagen que se adapta a lo ancho*/
+    float: auto; /*ubicacion de la imagen*/
+    display: inline; /*se muestra en la misma linea que el texto*/
+    margin-right: 10px; /*margenes dento de la cabecera*/
+    margin-top: 10px;} /*margen dento de la cabecera*/
+    /*Estilo para la barra de navegacion*/
+    .navbar ul{
+        background-color: rgb(255, 255, 255); /*color de fondo*/
+        list-style: none; /*elimina los maracadores * de la lista */
+        display: flex; /*crea una barra o un contendor que permite a sus elementos distribuirse de manera flexible*/
+        justify-content: center; /*los botones se distribuyen de manera uniforme en la barra de navegacion*/
+        padding: 0; /*espacio interno */
+        margin: 0; /*margen entre la barra nav y heder */
+    }
+        .navbar li {
+            margin: 0 15px; /* Espacio horizontal entre botones */
+        }
+    .btn-nav {
+        background-color: rgb(255, 255, 255); /*color de fondo del boton*/
+        color: rgb(0, 0, 0); /*es el color del texto*/
+        border: 1px solid rgb(0, 0, 0); /*elimina el borde que estaba preterminado en los borde*/
+        padding: 10px 20px; /*es el espacio interno entre los botones*/
+        font-size: 16px; /*tamaño de la fuente*/
+        cursor: pointer;/*cambia el cursor a una mano cuando pasapor encima del boton*/
+    }
+    .btn-nav:hover:hover{
+        background-color: rgb(255, 255, 255); /*cambia el color de fondo*/
+    }
+        .contenedor {
+            display: flex;
+            width: 100vw;
+        }
+        .articulo{
+            background-color: rgb(255, 255, 255);
+            flex: 3;
+            padding: 20px;
+        }
+        .pie {
+            background-color: rgb(255, 255, 255) ;
+        }
+        .propaganda {
+            background-color: rgb(198, 202, 202);
+            flex: 1;
+            padding: 20px;
+        }
+        body {
+            margin: 0;
+        }
